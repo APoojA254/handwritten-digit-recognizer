@@ -1,0 +1,93 @@
+4.0s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+4.0s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+4.0s 3 0.00s - to python to disable frozen modules.
+4.1s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+5.0s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+5.0s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+5.0s 7 0.00s - to python to disable frozen modules.
+5.0s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+12.1s 9 Loading and preprocessing data...
+16.8s 10 Training set: 41000 examples
+16.8s 11 Development set: 1000 examples
+17.6s 12 
+17.6s 13 Starting training with different optimizers...
+17.6s 14 
+17.6s 15 
+17.6s 16 ==================================================
+17.6s 17 Training with SGD
+17.6s 18 ==================================================
+22.2s 19 Epoch 1/50 | Cost: 0.3482 | Train Acc: 94.16% | Dev Acc: 93.70%
+37.5s 20 Epoch 5/50 | Cost: 0.0613 | Train Acc: 98.73% | Dev Acc: 97.10%
+57.1s 21 Epoch 10/50 | Cost: 0.0196 | Train Acc: 99.72% | Dev Acc: 97.60%
+76.8s 22 Epoch 15/50 | Cost: 0.0062 | Train Acc: 99.98% | Dev Acc: 98.20%
+95.9s 23 Epoch 20/50 | Cost: 0.0026 | Train Acc: 100.00% | Dev Acc: 98.00%
+116.1s 24 Epoch 25/50 | Cost: 0.0017 | Train Acc: 100.00% | Dev Acc: 98.10%
+134.9s 25 Epoch 30/50 | Cost: 0.0012 | Train Acc: 100.00% | Dev Acc: 97.90%
+154.6s 26 Epoch 35/50 | Cost: 0.0009 | Train Acc: 100.00% | Dev Acc: 98.10%
+173.9s 27 Epoch 40/50 | Cost: 0.0007 | Train Acc: 100.00% | Dev Acc: 98.00%
+192.8s 28 Epoch 45/50 | Cost: 0.0006 | Train Acc: 100.00% | Dev Acc: 98.10%
+212.5s 29 Epoch 50/50 | Cost: 0.0005 | Train Acc: 100.00% | Dev Acc: 98.10%
+213.4s 30 
+213.4s 31 ==================================================
+213.4s 32 Training with MOMENTUM
+213.4s 33 ==================================================
+218.5s 34 Epoch 1/50 | Cost: 0.9005 | Train Acc: 88.35% | Dev Acc: 87.60%
+236.8s 35 Epoch 5/50 | Cost: 0.2442 | Train Acc: 93.48% | Dev Acc: 92.20%
+259.0s 36 Epoch 10/50 | Cost: 0.1719 | Train Acc: 95.45% | Dev Acc: 94.10%
+282.1s 37 Epoch 15/50 | Cost: 0.1315 | Train Acc: 96.55% | Dev Acc: 95.30%
+305.3s 38 Epoch 20/50 | Cost: 0.1050 | Train Acc: 97.31% | Dev Acc: 96.00%
+327.6s 39 Epoch 25/50 | Cost: 0.0855 | Train Acc: 97.87% | Dev Acc: 96.40%
+350.8s 40 Epoch 30/50 | Cost: 0.0709 | Train Acc: 98.31% | Dev Acc: 96.40%
+374.2s 41 Epoch 35/50 | Cost: 0.0596 | Train Acc: 98.65% | Dev Acc: 96.60%
+397.7s 42 Epoch 40/50 | Cost: 0.0502 | Train Acc: 98.87% | Dev Acc: 96.80%
+421.0s 43 Epoch 45/50 | Cost: 0.0427 | Train Acc: 99.04% | Dev Acc: 97.20%
+444.8s 44 Epoch 50/50 | Cost: 0.0364 | Train Acc: 99.30% | Dev Acc: 97.20%
+445.7s 45 
+445.7s 46 ==================================================
+445.7s 47 Training with RMSPROP
+445.7s 48 ==================================================
+452.1s 49 Epoch 1/50 | Cost: 0.2623 | Train Acc: 97.04% | Dev Acc: 95.80%
+475.5s 50 Epoch 5/50 | Cost: 0.0248 | Train Acc: 99.45% | Dev Acc: 97.30%
+504.2s 51 Epoch 10/50 | Cost: 0.0133 | Train Acc: 99.41% | Dev Acc: 97.70%
+532.9s 52 Epoch 15/50 | Cost: 0.0061 | Train Acc: 99.84% | Dev Acc: 97.80%
+561.9s 53 Epoch 20/50 | Cost: 0.0093 | Train Acc: 99.93% | Dev Acc: 98.00%
+591.0s 54 Epoch 25/50 | Cost: 0.0051 | Train Acc: 99.97% | Dev Acc: 98.10%
+619.7s 55 Epoch 30/50 | Cost: 0.0067 | Train Acc: 99.97% | Dev Acc: 97.80%
+649.3s 56 Epoch 35/50 | Cost: 0.0044 | Train Acc: 99.85% | Dev Acc: 97.80%
+679.0s 57 Epoch 40/50 | Cost: 0.0031 | Train Acc: 99.93% | Dev Acc: 97.70%
+708.0s 58 Epoch 45/50 | Cost: 0.0046 | Train Acc: 99.92% | Dev Acc: 97.80%
+737.2s 59 Epoch 50/50 | Cost: 0.0015 | Train Acc: 99.96% | Dev Acc: 97.70%
+738.1s 60 
+738.1s 61 ==================================================
+738.1s 62 Training with ADAM
+738.1s 63 ==================================================
+746.1s 64 Epoch 1/50 | Cost: 0.2319 | Train Acc: 97.00% | Dev Acc: 95.40%
+775.0s 65 Epoch 5/50 | Cost: 0.0275 | Train Acc: 99.24% | Dev Acc: 97.40%
+810.8s 66 Epoch 10/50 | Cost: 0.0155 | Train Acc: 99.56% | Dev Acc: 97.90%
+849.5s 67 Epoch 15/50 | Cost: 0.0095 | Train Acc: 99.76% | Dev Acc: 97.90%
+889.0s 68 Epoch 20/50 | Cost: 0.0095 | Train Acc: 99.86% | Dev Acc: 98.20%
+930.6s 69 Epoch 25/50 | Cost: 0.0032 | Train Acc: 99.95% | Dev Acc: 98.10%
+973.5s 70 Epoch 30/50 | Cost: 0.0055 | Train Acc: 99.90% | Dev Acc: 98.00%
+1016.8s 71 Epoch 35/50 | Cost: 0.0057 | Train Acc: 99.85% | Dev Acc: 98.10%
+1061.0s 72 Epoch 40/50 | Cost: 0.0070 | Train Acc: 99.82% | Dev Acc: 97.40%
+1106.2s 73 Epoch 45/50 | Cost: 0.0006 | Train Acc: 99.98% | Dev Acc: 98.20%
+1151.9s 74 Epoch 50/50 | Cost: 0.0077 | Train Acc: 99.85% | Dev Acc: 97.90%
+1153.8s 75 
+1153.8s 76 Best optimizer: SGD with 98.10% accuracy
+1157.2s 77 Submission file 'mnist_submission.csv' created!
+1160.4s 78 /usr/local/lib/python3.11/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+1160.4s 79 warn(
+1160.5s 80 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+1160.9s 81 [NbConvertApp] Writing 405890 bytes to __notebook__.ipynb
+1162.6s 82 /usr/local/lib/python3.11/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+1162.6s 83 warn(
+1162.6s 84 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+1163.6s 85 [NbConvertApp] Support files will be in __results___files/
+1163.6s 86 [NbConvertApp] Making directory __results___files
+1163.6s 87 [NbConvertApp] Making directory __results___files
+1163.6s 88 [NbConvertApp] Making directory __results___files
+1163.6s 89 [NbConvertApp] Making directory __results___files
+1163.6s 90 [NbConvertApp] Making directory __results___files
+1163.6s 91 [NbConvertApp] Making directory __results___files
+1163.6s 92 [NbConvertApp] Making directory __results___files
+1163.6s 93 [NbConvertApp] Writing 362519 bytes to __results__.html
